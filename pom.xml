@@ -11,6 +11,7 @@
     <modules>
         <module>ch1-hello-akka</module>
         <module>ch2-supervision-monitor</module>
+        <module>ch3-routing-messages</module>
     </modules>
 
     <properties>
