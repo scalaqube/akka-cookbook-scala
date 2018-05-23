@@ -13,6 +13,7 @@
         <module>ch2-supervision-monitor</module>
         <module>ch3-routing-messages</module>
         <module>ch4-futures-agents</module>
+        <module>ch5-scheduling-actors</module>
     </modules>
 
     <properties>
@@ -25,6 +26,16 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_${scala.compactVersion}</artifactId>
@@ -49,7 +60,11 @@
             <artifactId>akka-stream_${scala.compactVersion}</artifactId>
             <version>${akka.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-agent_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-slf4j -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>

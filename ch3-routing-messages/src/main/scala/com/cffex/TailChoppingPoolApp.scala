@@ -15,7 +15,7 @@ class TailChoppingActor extends Actor {
   }
 }
 
-object ScatterGatherFirstCompletedpool extends App {
+object TailChoppingApp extends App {
   implicit val timeout = Timeout(10 seconds)
   val actorSystem = ActorSystem("Hello-Akka")
   val router = actorSystem.actorOf(TailChoppingPool(5, within = 10.seconds, interval = 20.millis).props(Props[TailChoppingActor]))

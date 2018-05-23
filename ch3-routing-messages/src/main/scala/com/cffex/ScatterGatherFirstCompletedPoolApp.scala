@@ -14,7 +14,7 @@ class ScatterGatherFirstCompletedPoolActor extends Actor {
   }
 }
 
-object ScatterGatherFirstCompletedpool extends App {
+object ScatterGatherFirstCompletedPoolApp extends App {
   implicit val timeout = Timeout(10 seconds)
   val actorSystem = ActorSystem("Hello-Akka")
   val router = actorSystem.actorOf(ScatterGatherFirstCompletedPool(5, within = 10.seconds).props(Props[ScatterGatherFirstCompletedPoolActor]))
