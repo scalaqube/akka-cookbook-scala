@@ -14,6 +14,7 @@
         <module>ch3-routing-messages</module>
         <module>ch4-futures-agents</module>
         <module>ch5-scheduling-actors</module>
+        <module>ch6-akka-persistence</module>
     </modules>
 
     <properties>
@@ -71,6 +72,15 @@
             <artifactId>akka-slf4j_${scala.compactVersion}</artifactId>
             <version>${akka.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.12</artifactId>
+            <version>3.0.5</version>
+            <scope>test</scope>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/pl.newicom.dddd/eventstore-akka-persistence -->
         <dependency>
             <groupId>pl.newicom.dddd</groupId>
@@ -86,6 +96,12 @@
             <version>2.9.9</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.iq80.leveldb/leveldb -->
+        <dependency>
+            <groupId>org.iq80.leveldb</groupId>
+            <artifactId>leveldb</artifactId>
+            <version>0.10</version>
+        </dependency>
 
     </dependencies>
 

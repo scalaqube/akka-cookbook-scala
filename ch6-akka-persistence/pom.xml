@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch5-scheduling-actors</artifactId>
+    <artifactId>ch6-akka-persistence</artifactId>
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>

@@ -7,13 +7,14 @@ class RandomIntAdder extends Actor {
   val r = scala.util.Random
 
   def receive = {
-    case "tick" => val randomInta = r.nextInt(10)
+    case "tick" =>
+      val randomInta = r.nextInt(10)
       val randomIntb = r.nextInt(10)
       println(s"sum of $randomInta and $randomIntb is ${randomInta + randomIntb}")
   }
 }
 
-class ScheduleActor extends App {
+object ScheduleActor extends App {
   val system = ActorSystem("Hello-Akka")
 
   import system.dispatcher
