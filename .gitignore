@@ -6,3 +6,4 @@ ch3-routing-messages/target
 ch4-futures-agents/target
 ch5-scheduling-actors/target
 ch6-akka-persistence/target
+ch8-akka-streams/target

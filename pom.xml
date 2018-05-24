@@ -15,6 +15,7 @@
         <module>ch4-futures-agents</module>
         <module>ch5-scheduling-actors</module>
         <module>ch6-akka-persistence</module>
+        <module>ch8-akka-streams</module>
     </modules>
 
     <properties>
@@ -102,6 +103,14 @@
             <artifactId>leveldb</artifactId>
             <version>0.10</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.lightbend.akka/akka-stream-alpakka-amqp -->
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-stream-alpakka-amqp_2.12</artifactId>
+            <version>0.19</version>
+        </dependency>
+
 
     </dependencies>
 
