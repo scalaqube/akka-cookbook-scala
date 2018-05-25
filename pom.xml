@@ -16,6 +16,7 @@
         <module>ch5-scheduling-actors</module>
         <module>ch6-akka-persistence</module>
         <module>ch8-akka-streams</module>
+        <module>ch9-akka-http</module>
     </modules>
 
     <properties>
@@ -73,6 +74,19 @@
             <artifactId>akka-slf4j_${scala.compactVersion}</artifactId>
             <version>${akka.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http_${scala.compactVersion}</artifactId>
+            <version>10.1.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-http-spray-json -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http-spray-json_2.12</artifactId>
+            <version>10.1.1</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
         <dependency>
             <groupId>org.scalatest</groupId>
@@ -110,6 +124,14 @@
             <artifactId>akka-stream-alpakka-amqp_2.12</artifactId>
             <version>0.19</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.dropwizard/dropwizard-core -->
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-core</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
 
 
     </dependencies>
