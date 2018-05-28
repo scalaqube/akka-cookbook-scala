@@ -2,9 +2,10 @@ package com.cffex
 
 import akka.actor.{ActorRef, ActorSystem, Props}
 import akka.cluster.sharding.{ClusterSharding, ClusterShardingSettings}
-import com.cffex.{GetCurrentTemperature, Location, UpdateTemperature}
 import akka.pattern.ask
 import akka.util.Timeout
+import com.cffex.TemperatureActor.{GetCurrentTemperature, Location, UpdateTemperature}
+
 import scala.concurrent.duration._
 
 object ClusterShardingApplication extends App {

@@ -6,6 +6,7 @@ import akka.pattern.pipe
 
 import scala.concurrent.duration._
 import akka.util.Timeout
+import com.cffex.ChatServer.{Connect, Disconnect, Disconnected, Message}
 
 object ChatClient {
   def props(chatServer: ActorRef) = Props(new ChatClient(chatServer))

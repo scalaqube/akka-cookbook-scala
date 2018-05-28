@@ -1,7 +1,7 @@
 package com.cffex
 
 import akka.actor.{Actor, ActorLogging, ActorRef}
-import com.packt.chapter10.WorkerWorkPulling.{RejectWork, Work, WorkDone}
+import com.cffex.WorkerWorkPulling.{RejectWork, Work, WorkDone}
 
 import scala.concurrent.duration._
 import scala.util.Random

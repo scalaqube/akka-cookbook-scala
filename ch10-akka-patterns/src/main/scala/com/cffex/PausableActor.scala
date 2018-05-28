@@ -1,7 +1,7 @@
 package com.cffex
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Stash}
-import com.packt.chapter10.PausableActor.{Ready, Work}
+import com.cffex.PausableActor.{Ready, Work}
 
 object PausableActor {
   case class Work(id: Int)
