@@ -1,6 +1,5 @@
 package com.cffex
 
-
 sealed trait UserAction
 
 case object Add extends UserAction

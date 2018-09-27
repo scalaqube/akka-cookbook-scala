@@ -1,6 +1,7 @@
 package com.cffex
 
 import akka.actor.{ActorSystem, PoisonPill, Props}
+import com.cffex.SamplePersistence.SamplePersistenceActor
 
 object SafePersistenceActorShutdownApp extends App {
   val system = ActorSystem("safe-shutdown")

@@ -26,7 +26,7 @@
         <java.version>1.8</java.version>
         <scala.version>2.12.5</scala.version>
         <scala.compactVersion>2.12</scala.compactVersion>
-        <akka.version>2.5.12</akka.version>
+        <akka.version>2.5.16</akka.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -49,6 +49,11 @@
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor-typed_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-testkit_${scala.compactVersion}</artifactId>
             <version>${akka.version}</version>
             <scope>test</scope>
@@ -58,6 +63,20 @@
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-persistence_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-persistence-query -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-persistence-query_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-remote -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-remote_${scala.compactVersion}</artifactId>
             <version>${akka.version}</version>
         </dependency>
 
@@ -90,14 +109,14 @@
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-http-spray-json -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-http-spray-json_2.12</artifactId>
+            <artifactId>akka-http-spray-json_${scala.compactVersion}</artifactId>
             <version>10.1.1</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
         <dependency>
             <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.12</artifactId>
+            <artifactId>scalatest_${scala.compactVersion}</artifactId>
             <version>3.0.5</version>
             <scope>test</scope>
         </dependency>
@@ -105,50 +124,63 @@
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-remote -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-remote_2.12</artifactId>
-            <version>2.5.12</version>
+            <artifactId>akka-remote_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-cluster -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-cluster_2.12</artifactId>
-            <version>2.5.12</version>
+            <artifactId>akka-cluster_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-cluster-tools_2.12</artifactId>
-            <version>2.5.12</version>
+            <artifactId>akka-cluster-typed_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-cluster-tools_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-cluster-sharding -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-cluster-sharding_2.12</artifactId>
-            <version>2.5.12</version>
+            <artifactId>akka-cluster-sharding_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-distributed-data -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-distributed-data_2.12</artifactId>
-            <version>2.5.12</version>
+            <artifactId>akka-distributed-data_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor-typed -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor-typed_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/com.enragedginger/akka-quartz-scheduler -->
         <dependency>
             <groupId>com.enragedginger</groupId>
-            <artifactId>akka-quartz-scheduler_2.12</artifactId>
+            <artifactId>akka-quartz-scheduler_${scala.compactVersion}</artifactId>
             <version>1.6.1-akka-2.5.x</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-contrib -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-contrib_2.12</artifactId>
-            <version>2.5.12</version>
+            <artifactId>akka-contrib_${scala.compactVersion}</artifactId>
+            <version>${akka.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/pl.newicom.dddd/eventstore-akka-persistence -->
         <dependency>
             <groupId>pl.newicom.dddd</groupId>
-            <artifactId>eventstore-akka-persistence_2.12</artifactId>
+            <artifactId>eventstore-akka-persistence_${scala.compactVersion}</artifactId>
             <version>1.7.8</version>
             <scope>test</scope>
         </dependency>
@@ -167,10 +199,146 @@
             <version>0.10</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-persistence-cassandra -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-persistence-cassandra_2.12</artifactId>
+            <version>0.90</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.okumin/akka-persistence-sql-async -->
+        <dependency>
+            <groupId>com.okumin</groupId>
+            <artifactId>akka-persistence-sql-async_2.12</artifactId>
+            <version>0.5.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.mauricio/mysql-async -->
+        <dependency>
+            <groupId>com.github.mauricio</groupId>
+            <artifactId>mysql-async_2.12</artifactId>
+            <version>0.2.21</version>
+            <!--<scope>provided</scope>-->
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.mauricio/mysql-async -->
+        <dependency>
+            <groupId>com.github.mauricio</groupId>
+            <artifactId>postgresql-async_2.12</artifactId>
+            <version>0.2.21</version>
+            <!--<scope>provided</scope>-->
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.scalikejdbc/scalikejdbc-async -->
+        <dependency>
+            <groupId>org.scalikejdbc</groupId>
+            <artifactId>scalikejdbc-async_2.12</artifactId>
+            <version>0.11.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.dnvriend/akka-persistence-jdbc -->
+        <dependency>
+            <groupId>com.github.dnvriend</groupId>
+            <artifactId>akka-persistence-jdbc_2.12</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/hikari-cp/hikari-cp -->
+        <!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.safety-data</groupId>
+            <artifactId>akka-persistence-redis_2.12</artifactId>
+            <version>0.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.scullxbones</groupId>
+            <artifactId>akka-persistence-mongo-casbah_2.12</artifactId>
+            <version>2.0.12</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.scullxbones</groupId>
+            <artifactId>akka-persistence-mongo-rxmongo_2.12</artifactId>
+            <version>2.0.12</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.reactivemongo/reactivemongo -->
+        <dependency>
+            <groupId>org.reactivemongo</groupId>
+            <artifactId>reactivemongo_2.12</artifactId>
+            <version>0.16.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.reactivemongo/reactivemongo-akkastream -->
+        <dependency>
+            <groupId>org.reactivemongo</groupId>
+            <artifactId>reactivemongo-akkastream_2.12</artifactId>
+            <version>0.16.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.reactivemongo/reactivemongo-shaded -->
+        <dependency>
+            <groupId>org.reactivemongo</groupId>
+            <artifactId>reactivemongo-shaded</artifactId>
+            <version>0.16.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.reactivemongo/reactivemongo-shaded-native -->
+        <dependency>
+            <groupId>org.reactivemongo</groupId>
+            <artifactId>reactivemongo-shaded-native</artifactId>
+            <version>0.16.0-linux-x86-64</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.29.Final</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.mongodb/casbah -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>casbah_2.12</artifactId>
+            <version>3.1.1</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.geteventstore</groupId>
+            <artifactId>akka-persistence-eventstore_2.12</artifactId>
+            <version>5.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.geteventstore/eventstore-client -->
+        <dependency>
+            <groupId>com.geteventstore</groupId>
+            <artifactId>eventstore-client_2.12</artifactId>
+            <version>5.0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>io.spray</groupId>
+            <artifactId>spray-json_2.12</artifactId>
+            <version>1.3.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.lightbend.akka/akka-stream-alpakka-amqp -->
         <dependency>
             <groupId>com.lightbend.akka</groupId>
-            <artifactId>akka-stream-alpakka-amqp_2.12</artifactId>
+            <artifactId>akka-stream-alpakka-amqp_${scala.compactVersion}</artifactId>
             <version>0.19</version>
         </dependency>
 
