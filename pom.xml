@@ -85,6 +85,21 @@
             <artifactId>akka-stream_${scala.compactVersion}</artifactId>
             <version>${akka.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.lightbend.akka/akka-stream-alpakka-amqp -->
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-stream-alpakka-amqp_2.12</artifactId>
+            <version>0.20</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-stream-kafka -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-stream-kafka_2.12</artifactId>
+            <version>0.22</version>
+        </dependency>
+
+
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-agent_${scala.compactVersion}</artifactId>
