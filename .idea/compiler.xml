@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch01-hello-akka" />
+        <module name="ch02-supervision-monitor" />
+        <module name="ch03-routing-messages" />
+        <module name="ch04-futures-agents" />
+        <module name="ch05-scheduling-actors" />
+        <module name="ch06-akka-persistence" />
+        <module name="ch07-akka-cluster" />
+        <module name="ch08-akka-streams" />
+        <module name="ch09-akka-http" />
+        <module name="ch10-akka-patterns" />
+        <module name="ch11-lagom" />
+        <module name="ch12-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="akka-cookbook-scala" target="1.8" />
+      <module name="ch01-hello-akka" target="1.8" />
+      <module name="ch02-supervision-monitor" target="1.8" />
+      <module name="ch03-routing-messages" target="1.8" />
+      <module name="ch04-futures-agents" target="1.8" />
+      <module name="ch05-scheduling-actors" target="1.8" />
+      <module name="ch06-akka-persistence" target="1.8" />
+      <module name="ch07-akka-cluster" target="1.8" />
+      <module name="ch08-akka-streams" target="1.8" />
+      <module name="ch09-akka-http" target="1.8" />
+      <module name="ch1-hello-akka" target="1.8" />
+      <module name="ch10-akka-patterns" target="1.8" />
+      <module name="ch11-lagom" target="1.8" />
+      <module name="ch12-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.enragedginger:akka-quartz-scheduler_2.12:1.6.1-akka-2.5.x">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/enragedginger/akka-quartz-scheduler_2.12/1.6.1-akka-2.5.x/akka-quartz-scheduler_2.12-1.6.1-akka-2.5.x.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/enragedginger/akka-quartz-scheduler_2.12/1.6.1-akka-2.5.x/akka-quartz-scheduler_2.12-1.6.1-akka-2.5.x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/enragedginger/akka-quartz-scheduler_2.12/1.6.1-akka-2.5.x/akka-quartz-scheduler_2.12-1.6.1-akka-2.5.x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
