@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch2-supervision-monitor</artifactId>
+    <artifactId>ch02-supervision-monitor</artifactId>
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>

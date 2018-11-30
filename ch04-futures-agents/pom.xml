@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch4-futures-agents</artifactId>
+    <artifactId>ch04-futures-agents</artifactId>
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>

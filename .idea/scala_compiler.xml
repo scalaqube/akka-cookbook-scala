@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="ch1-hello-akka,ch2-supervision-monitor,ch3-routing-messages,ch4-futures-agents,ch8-akka-streams,ch7-akka-cluster,ch5-scheduling-actors,ch6-akka-persistence,ch9-akka-http,ch04-futures-agents,ch07-akka-cluster,ch03-routing-messages,ch01-hello-akka,ch08-akka-streams,ch12-test,ch05-scheduling-actors,ch06-akka-persistence,ch11-lagom,ch02-supervision-monitor,ch10-akka-patterns,akka-cookbook-scala,ch09-akka-http" />
-  </component>
-</project>

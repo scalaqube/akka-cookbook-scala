@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch7-akka-cluster</artifactId>
+    <artifactId>ch07-akka-cluster</artifactId>
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>

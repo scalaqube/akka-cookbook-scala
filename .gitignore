@@ -1,3 +1,4 @@
+.idea/
 target/
 ch1-hello-akka/target
 ch2-supervision-monitor/target

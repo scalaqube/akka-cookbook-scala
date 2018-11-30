@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch3-routing-messages</artifactId>
+    <artifactId>ch03-routing-messages</artifactId>
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
