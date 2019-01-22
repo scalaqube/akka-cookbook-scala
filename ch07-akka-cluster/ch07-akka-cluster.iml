@@ -10,24 +10,25 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.12.5" level="project" />
-    <orderEntry type="library" name="Maven: org.scala-lang:scala-reflect:2.12.5" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor_2.12:2.5.16" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.12.7" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-reflect:2.12.7" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor_2.12:2.5.19" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe:config:1.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor-typed_2.12:2.5.16" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.typesafe.akka:akka-testkit_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-persistence_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-protobuf_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-persistence-query_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-remote_2.12:2.5.16" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor-typed_2.12:2.5.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.typesafe.akka:akka-testkit_2.12:2.5.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.typesafe.akka:akka-multi-node-testkit_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-persistence_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-protobuf_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-persistence-query_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-remote_2.12:2.5.19" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty:3.10.6.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.aeron:aeron-driver:1.9.3" level="project" />
-    <orderEntry type="library" name="Maven: io.aeron:aeron-client:1.9.3" level="project" />
-    <orderEntry type="library" name="Maven: org.agrona:agrona:0.9.18" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-stream_2.12:2.5.16" level="project" />
+    <orderEntry type="library" name="Maven: io.aeron:aeron-driver:1.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.agrona:agrona:0.9.27" level="project" />
+    <orderEntry type="library" name="Maven: io.aeron:aeron-client:1.12.0" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-stream_2.12:2.5.19" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe:ssl-config-core_2.12:0.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe:ssl-config-core_2.12:0.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.lightbend.akka:akka-stream-alpakka-amqp_2.12:0.20" level="project" />
     <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:5.1.1" level="project" />
@@ -35,9 +36,9 @@
     <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.lz4:lz4-java:1.4" level="project" />
     <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.4" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-agent_2.12:2.5.16" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-agent_2.12:2.5.19" level="project" />
     <orderEntry type="library" name="Maven: org.scala-stm:scala-stm_2.12:0.8" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-slf4j_2.12:2.5.16" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-slf4j_2.12:2.5.19" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.akka:akka-http_2.12:10.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.akka:akka-http-core_2.12:10.1.1" level="project" />
@@ -47,11 +48,11 @@
     <orderEntry type="library" name="Maven: com.typesafe.akka:akka-http-spray-json_2.12:10.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scalatest:scalatest_2.12:3.0.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scalactic:scalactic_2.12:3.0.5" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster-typed_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster-tools_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster-sharding_2.12:2.5.16" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-distributed-data_2.12:2.5.16" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster-typed_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster-tools_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster-sharding_2.12:2.5.19" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-distributed-data_2.12:2.5.19" level="project" />
     <orderEntry type="library" name="Maven: org.lmdbjava:lmdbjava:0.6.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-ffi:2.1.7" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jffi:1.2.16" level="project" />
@@ -63,10 +64,11 @@
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-util:5.0.3" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-x86asm:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-constants:0.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster-metrics_2.12:2.5.19" level="project" />
     <orderEntry type="library" name="Maven: com.enragedginger:akka-quartz-scheduler_2.12:1.6.1-akka-2.5.x" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-contrib_2.12:2.5.16" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-contrib_2.12:2.5.19" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: pl.newicom.dddd:eventstore-akka-persistence_2.12:1.7.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: pl.newicom.dddd:akka-ddd-messaging_2.12:1.7.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: pl.newicom.dddd:akka-ddd-protocol_2.12:1.7.8" level="project" />
@@ -222,5 +224,11 @@
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-access:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: net.sourceforge.argparse4j:argparse4j:0.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.lightbend.akka.management:akka-management_2.12:0.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.lightbend.akka.management:akka-management-cluster-http_2.12:0.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.lightbend.akka.management:akka-management-cluster-bootstrap_2.12:0.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.lightbend.akka.discovery:akka-discovery_2.12:0.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.lightbend.akka.discovery:akka-discovery-dns_2.12:0.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.lightbend.akka.discovery:akka-discovery-config_2.12:0.20.0" level="project" />
   </component>
 </module>

@@ -3,11 +3,12 @@ package com.cffex.ClusterSingleton
 import akka.actor.{ActorSystem, PoisonPill, Props}
 import akka.cluster.Cluster
 import akka.cluster.singleton._
+import com.typesafe.config.ConfigFactory
 
 import scala.concurrent.duration._
 
 object ClusterSingletonApplication extends App {
-  val actorSystem = ActorSystem("ClusterSystem")
+  val actorSystem = ActorSystem("ClusterSystem", ConfigFactory.load("application-cluster-1.conf"))
   val cluster = Cluster(actorSystem)
 
   val clusterSingletonSettings = ClusterSingletonManagerSettings(actorSystem)
