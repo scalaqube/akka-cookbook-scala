@@ -25,6 +25,7 @@
         <module>ch14-akka-cluster-sample</module>
         <module>ch15-simple-cluster-java</module>
         <module>ch16-akka-http-cluster</module>
+        <module>ch17-akka-persistence-testing</module>
     </modules>
 
     <properties>
@@ -209,12 +210,12 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/pl.newicom.dddd/eventstore-akka-persistence -->
-        <dependency>
-            <groupId>pl.newicom.dddd</groupId>
-            <artifactId>eventstore-akka-persistence_${scala.compactVersion}</artifactId>
-            <version>1.7.8</version>
-            <scope>test</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>pl.newicom.dddd</groupId>-->
+            <!--<artifactId>eventstore-akka-persistence_${scala.compactVersion}</artifactId>-->
+            <!--<version>1.7.8</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
 
         <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
         <dependency>
@@ -415,7 +416,12 @@
             <!--<scope>runtime</scope>-->
         <!--</dependency>-->
 
-
+        <dependency>
+            <groupId>com.github.dnvriend</groupId>
+            <artifactId>akka-persistence-inmemory_2.12</artifactId>
+            <version>2.5.1.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 

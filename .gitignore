@@ -11,3 +11,4 @@ ch8-akka-streams/target
 ch9-akka-http/target
 ch10-akka-patterns/target
 ch11-lagom/target
+**/target

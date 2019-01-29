@@ -67,20 +67,6 @@
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.akka:akka-contrib_2.12:2.5.19" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: pl.newicom.dddd:eventstore-akka-persistence_2.12:1.7.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: pl.newicom.dddd:akka-ddd-messaging_2.12:1.7.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: pl.newicom.dddd:akka-ddd-protocol_2.12:1.7.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.beachape:enumeratum_2.12:1.5.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.beachape:enumeratum-macros_2.12:1.5.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.softwaremill.common:tagging_2.12:2.2.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.json4s:json4s-native_2.12:3.5.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.json4s:json4s-core_2.12:3.5.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.json4s:json4s-ast_2.12:3.5.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.json4s:json4s-scalap_2.12:3.5.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.json4s:json4s-ext_2.12:3.5.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.beachape:enumeratum-json4s_2.12:1.5.12" level="project" />
-    <orderEntry type="library" name="Maven: com.github.nscala-time:nscala-time_2.12:2.16.0" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: org.iq80.leveldb:leveldb:0.10" level="project" />
     <orderEntry type="library" name="Maven: org.iq80.leveldb:leveldb-api:0.10" level="project" />
@@ -131,6 +117,7 @@
     <orderEntry type="library" name="Maven: org.reactivemongo:reactivemongo-shaded-native:0.16.0-linux-x86-64" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.29.Final" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:casbah-commons_2.12:3.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.nscala-time:nscala-time_2.12:2.14.0" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:casbah-core_2.12:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:casbah-query_2.12:3.1.1" level="project" />
@@ -228,5 +215,7 @@
     <orderEntry type="library" name="Maven: com.lightbend.akka.discovery:akka-discovery_2.12:0.20.0" level="project" />
     <orderEntry type="library" name="Maven: com.lightbend.akka.discovery:akka-discovery-dns_2.12:0.20.0" level="project" />
     <orderEntry type="library" name="Maven: com.lightbend.akka.discovery:akka-discovery-config_2.12:0.20.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.dnvriend:akka-persistence-inmemory_2.12:2.5.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.scalaz:scalaz-core_2.12:7.2.12" level="project" />
   </component>
 </module>
