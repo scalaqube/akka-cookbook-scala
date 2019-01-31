@@ -2,12 +2,13 @@ package com.cffex.SubPubApp
 
 import akka.actor.{ActorSystem, Props}
 import akka.cluster.Cluster
+import com.typesafe.config.ConfigFactory
 
 import scala.concurrent.duration._
 import scala.util.Random
 
 object DistributedPubSubApplication extends App {
-  val actorSystem = ActorSystem("ClusterSystem")
+  val actorSystem = ActorSystem("ClusterSystem",ConfigFactory.load("application-cluster-1.conf"))
   val cluster = Cluster(actorSystem)
 
   val notificationSubscriber = actorSystem.actorOf(Props[NotificationSubscriber])
